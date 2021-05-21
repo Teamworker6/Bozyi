@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1290px;
+}
+
+.wrapper#blur.active {
+    background-color: #C4C4C4;
+    opacity: 0.2;
+    pointer-events: none;
+    user-select: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__content {
+    width: 100%;
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    align-items: center;
+}
+
+.header__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header__lincs {
+    color: #8E5109;
+    width: 20%;
+    text-decoration: none;
+}
+
+.header__linc {
+    width: 20%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 20%;
+    font-size: 28px;
+}
+
+.header__login {
+    width: 50%;
+    text-align: right;
+}
+
+#log_in {
+    background-color: rgba(142, 81, 9, 0.7);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.reviews__title,
+.feedback__title {
+    font-size: 36px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 75px;
+}
+
+.reviews__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.review__card {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.client__img {
+    margin-right: 32px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.readMore {
+    display: flex;
+    margin-top: 23px;
+    text-decoration: none;
+    color: #8E5109;
+    float: right;
+}
+
+#fComment {
+    max-width: 100%;
+    resize: none;
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    height: 25%;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 630px;
+    padding-bottom: 35px;
+    width: 50%;
+    height: auto;
+}
+
+#feedback__name {
+    max-width: 100%;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.submit {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    width: 35%;
+    background-color: #8E5109;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #C5C5C5;
+}
+
+.footer__content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}

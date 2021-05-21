@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reviews.css">
+    <title>Boz yi</title>
+</head>
+
+<body class="body">
+    <div class="wrapper" id="blur">
+        <div class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__left">
+                        <p class="logo">Бозуй</p>
+                        <a class="header__lincs" href="Main_page.html">Главная</a>
+                        <a class="header__lincs" href="goods.html">Товары</a>
+                        <a class="header__lincs" href="delivery.html">Заказать</a>
+                        <a class="header__linc" href="">Отзывы</a>
+                    </div>
+                    <div class="header__login">
+                        <button id="log_in" onclick="toggle()">Войти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="container">
+                <div class="reviews__content">
+                    <p class="reviews__title">Отзывы</p>
+                    <div class="reviews__cards" id="reviews__cards">
+                        <a class="review__card" href="">
+                            <img src="client.png" alt="" class="client__img">
+                            <p class="card__text">
+                                <span class="clients__name">Анна Петровна</span><br><br> Все класссно! Спасибо большое)
+                            </p>
+                        </a>
+                        <a class="review__card" href="">
+                            <img src="client 2.png" alt="" class="client__img">
+                            <p class="card__text">
+                                <span class="clients__name">Анна Петровна</span><br><br> Все класссно! Спасибо большое)
+                            </p>
+                        </a>
+                        <a class="review__card" href="">
+                            <img src="client 3.png" alt="" class="client__img">
+                            <p class="card__text">
+                                <span class="clients__name">Анна Петровна</span> <br><br> Все класссно! Спасибо большое)
+                            </p>
+                        </a>
+                    </div>
+                    <a href="" class="readMore">Читать больше</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback">
+            <div class="container">
+                <div class="feedback__content">
+                    <p class="feedback__title">Обратная связь</p>
+                    <div class="feedback__form">
+                        <input type="text" placeholder="Ваше имя" id="feedback__name">
+                        <textarea name="feedback__comment" id="fComment" rows="13" placeholder="Оставьте комментарий"></textarea>
+                        <input type="submit" onclick="addNewreview()" class="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__contacts">Контакты: <br> 0770 832-456 <br> 0700 823-501 <br> 0990 554-357</div>
+                    <div class="footer__adress">Адрес: <br> Чуй 168/2 пересекает проспект мира</div>
+                    <div class="footer__lincs"></div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="reviews.js"></script>
+</body>
+
+</html>

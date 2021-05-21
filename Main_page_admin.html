@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main_page_admin.css">
+    <title>Boz yi</title>
+</head>
+
+<body>
+    <div class="wrapper" id="blur">
+        <div class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__left">
+                        <p class="logo" href="">Бозуй</p>
+                        <a class="header__linc" href="">Главная</a>
+                        <a class="header__lincs" href="goods_admin.html">Товары</a>
+                        <a class="header__lincs" href="delivery_admin.html">Заказать</a>
+                        <a class="header__lincs" href="orders_admin.html">Отзывы</a>
+                    </div>
+                    <div class="header__login">
+                        <button id="log_in" onclick="toggle()">Войти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+
+            <div class="news__content">
+                <img src="вик 1.png" alt="" class="mySlides">
+                <img src="Rectangle 25.png" alt="" class="mySlides">
+                <img src="Rectangle 26.png" alt="" class="mySlides">
+
+                <div class="left hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="right hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <div class="badges">
+                    <span class="badge" onclick="currentDiv(1)"></span>
+                    <span class="badge" onclick="currentDiv(2)"></span>
+                    <span class="badge" onclick="currentDiv(3)"></span>
+
+                    <div class="News__text">
+                        <p class="news__text">World Nomad Games) — международные спортивные состязания по этническим видам спорта. В основу состязаний легли народные игры исторически кочевых народов <br> Центральной Азии. Первые Всемирные игры кочевников прошли в городе Чолпон-Ата
+                            Иссык-Кульской области Киргизии 9-14 сентября 2014 года.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="catalog">
+            <div class="container">
+                <div class="catalog__content">
+                    <p class="catalog__title">
+                        Каталог
+                    </p>
+                    <div class="catalog__view">
+                        <div class="catalog__blocs">
+                            <img src="Rectangle 25.png" alt="" class="catalog__img">
+                            <div class="productBelow">
+                                <p class="catalog__text">3 000 сом</p>
+                                <button class="correctProduct"><img class="correct" src="редактировать.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="catalog__blocs">
+                            <img src="Rectangle 26.png" alt="" class="catalog__img">
+                            <div class="productBelow">
+                                <p class="catalog__text">3 000 сом</p>
+                                <button class="correctProduct"><img class="correct" src="редактировать.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="catalog__blocs">
+                            <img src="Rectangle 27.png" alt="" class="catalog__img">
+                            <div class="productBelow">
+                                <p class="catalog__text">2 000 сом</p>
+                                <button class="correctProduct"><img class="correct" src="редактировать.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="catalog__blocs">
+                            <img src="Rectangle 31.png" alt="" class="catalog__img">
+                            <div class="productBelow">
+                                <p class="catalog__text">2 500 сом</p>
+                                <button class="correctProduct"><img class="correct" src="редактировать.svg" alt=""></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- кнопка которая добавляет блоки, путь к свг плюсику-->
+                    <button class="addBlocks"><br><img class="addImage" src="добавить.svg" alt=""></button>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="autors">
+            <div class="container">
+                <div class="autors__content">
+                    <p class="autors__title">Авторы</p>
+                    <div class="autor__blocks">
+                        <div class="autors__block">
+                            <img src="Rectangle 51.png" alt="" class="autors__img">
+                        </div>
+                        <div class="autors__block">
+                            <img src="Rectangle 50.png" alt="" class="autors__img">
+                        </div>
+                        <div class="autors__block">
+                            <img src="Rectangle 49.png" alt="" class="autors__img">
+                        </div>
+
+
+                    </div>
+
+                    <!-- кнопка которая добавляет блоки, путь к свг плюсику-->
+                    <button class="addBlocks"><br><img class="addImage" src="добавить.svg" alt=""></button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__contacts">Контакты: <br> 0770 832-456 <br> 0700 823-501 <br> 0990 554-357</div>
+                    <div class="footer__adress">Адрес: <br> Чуй 168/2 пересекает проспект мира</div>
+                    <div class="footer__lincs"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <a href="" onclick="toggle()"><img src="крестик.svg" class="close__img" alt=""></a>
+        <p class="login__title">Авторизируйтесь, чтобы <br> продолжить работу </p>
+        <input type="text" class="email__input" placeholder="введите e-mail ">
+        <input type="password" class="password__input" placeholder="введите пароль ">
+        <a href="#" class="forgotPassword" style="text-decoration: none; color: black;">Забыли пароль ? </a>
+        <button class="popup__enter">Войти</button>
+
+    </div>
+    <script src="Main_page.js"></script>
+</body>
+
+</html>

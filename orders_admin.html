@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ссылка на css-->
+    <link rel="stylesheet" href="orders_admin.css">
+    <title>Boz yi</title>
+</head>
+
+<body>
+    <div class="wrapper" id="blur">
+        <div class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__left">
+                        <p class="logo" href="">Бозуй</p>
+                        <a class="header__lincs" href="Main_page_admin.html">Главная</a>
+                        <a class="header__lincs" href="goods_admin.html">Товары</a>
+                        <a class="header__lincs" href="delivery.html">Заказать</a>
+                        <a class="header__linc" href="">Отзывы</a>
+                    </div>
+                    <div class="header__login">
+                        <button id="log_in" onclick="toggle()">Отключиться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="orders">
+            <div class="container">
+                <div class="orders__content">
+                    <div class="clients">
+                        <div class="accordeon">
+                            <div class="clientCard">
+                                <p class="clientInfo">Тойболотов Арсен , Кок Жар, 60 0700 823 501</p>
+                                <img src="bottomarrow.svg" class="openAccordeon" alt="">
+                            </div>
+                            <div class="clientpanel"> Шырдак - 1 кол - 1200 сом <br> Шырдак - 1 кол - 1200 сом <br> Шырдак - 1 кол - 1200 сом<br> Шырдак - 1 кол - 1200 сом</div>
+                        </div>
+
+                        <div class="accordeon">
+                            <div class="clientCard">
+                                <p class="clientInfo">Тойболотов Арсен , Кок Жар, 60 0700 823 501</p>
+                                <img src="bottomarrow.svg" class="openAccordeon" alt="">
+                            </div>
+                            <div class="clientpanel"> Шырдак - 1 кол - 1200 сом <br> Шырдак - 1 кол - 1200 сом <br> Шырдак - 1 кол - 1200 сом<br> Шырдак - 1 кол - 1200 сом</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__contacts">Контакты: <br> 0770 832-456 <br> 0700 823-501 <br> 0990 554-357</div>
+                    <div class="footer__adress">Адрес: <br> Чуй 168/2 пересекает проспект мира</div>
+                    <div class="footer__lincs"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <a href="" onclick="toggle()" class="close"><img src="крестик.svg" class="close__img" alt=""></a>
+        <div class="buttons">
+            <button class="quit" onclick="location.href='Main_page.html'">Выйти</button>
+            <button onclick="toggle()" class="cancel">Отмена</button>
+        </div>
+    </div>
+    <script src="Main_page.js"></script>
+    <script src="orders_admin.js"></script>
+</body>
+
+</html>

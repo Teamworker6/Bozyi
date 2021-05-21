@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sergoe Print', serif;
+}
+
+.container {
+    margin: auto;
+    width: 1290px;
+}
+
+.wrapper#blur.active {
+    background-color: #C4C4C4;
+    opacity: 0.2;
+    pointer-events: none;
+    user-select: none;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.header__content {
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    align-items: center;
+}
+
+.header__left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header__lincs {
+    color: #8E5109;
+    width: 20%;
+    text-decoration: none;
+}
+
+.header__linc {
+    width: 20%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 20%;
+    font-size: 28px;
+}
+
+.header__login {
+    width: 50%;
+    text-align: right;
+}
+
+#log_in {
+    background-color: rgba(142, 81, 9, 0.7);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.shyrdak,
+.koinok,
+.kalpak,
+.joluk,
+.toshok {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.shyrdak__title,
+.koinok__title,
+.kalpak__title,
+.joluk__title,
+.toshok__title {
+    font-size: 36px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 75px;
+}
+
+.shyrdak__examples,
+.kalpak__examples,
+.koinok__examples,
+.joluk__examples,
+.toshok__examples {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productBelow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.correctProduct {
+    width: 10%;
+    height: 74%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.correct {
+    max-width: 100%;
+}
+
+.catalog__text {
+    padding-top: 8px;
+    font-size: 1.3vw;
+}
+
+.addBlocks {
+    position: relative;
+    display: flex;
+    width: 7.2%;
+    height: fit-content;
+    border-radius: 50%;
+    cursor: pointer;
+    left: 10%;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.addImage {
+    max-width: 100%;
+}
+
+.addNewcategory {
+    display: grid;
+    margin: auto;
+    cursor: pointer;
+    font-size: 2vw;
+    width: 13%;
+    padding: 6px 0px;
+}
+
+.shyrdak__example,
+.kalpak__example,
+.joluk__example,
+.koinok__example,
+.toshok__example {
+    max-width: 22.6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+.img__shyrdak,
+.img__kalpak,
+.img__koinok,
+.img__joluk,
+.img__toshok {
+    width: 100%;
+}
+
+.footer {
+    background-color: #C5C5C5;
+    display: flex;
+    width: 100%;
+}
+
+.footer__content {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#popup {
+    position: relative;
+    padding-top: 7px;
+    position: fixed;
+    background-color: white;
+    top: 20%;
+    left: 34%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.3vw;
+}
+
+#popup.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.login__title {
+    padding-bottom: 75px;
+    padding-top: 68px;
+}
+
+.popup__enter,
+.email__input,
+.password__input {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.forgotPassword {
+    position: relative;
+    padding: 25px 0px;
+    width: fit-content;
+    left: 25%;
+}
+
+.popup__enter {
+    width: 50%;
+    background-color: #8E5109;
+    color: white;
+}
+
+.close__img {
+    width: 7%;
+    float: right;
+}
