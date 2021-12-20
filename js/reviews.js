@@ -12,7 +12,7 @@ function addNewreview() {
     newCard.style = "cursor:pointer";
 
     const img = document.createElement("img");
-    img.src = "client.png";
+    img.src = "images/client.png";
     img.className += "client__img";
 
 
@@ -27,6 +27,7 @@ function addNewreview() {
     var br1 = document.createElement("br")
 
     var inputName = document.getElementById("feedback__name").value;
+
     if (inputName == "Akyl") {
         img.src = "окно.png";
         img.style = "width:25%";
@@ -41,4 +42,7 @@ function addNewreview() {
 
     console.log(newCard);
     reviewCards.prepend(newCard);
+    //document.getElementById("fComment").value = NULL;
+    //document.getElementById("fComment").value = NULL;
+
 }
